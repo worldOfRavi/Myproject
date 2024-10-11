@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lego Collection</title>
+    <link href="/css/main.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-white shadow">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <a href="/" class="text-2xl font-bold">Lego Collection</a>
+                <div class="space-x-4">
+                    <a href="/about" class="hover:text-blue-500">About</a>
+                    <div class="relative inline-block text-left">
+                        <div>
+                            <button type="button" class="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none">
+                                Theme
+                            </button>
+                        </div>
+                        <div class="absolute right-0 z-10 mt-2 w-56 origin-top-right bg-white rounded-md shadow-lg">
+                            <div class="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+                                <a href="/lego/sets?theme=technic" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Technic</a>
+                                <a href="/lego/sets?theme=city" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">City</a>
+                                <a href="/lego/sets?theme=space" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Space</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero bg-blue-500 text-white text-center py-20">
+        <h1 class="text-5xl font-bold">Explore the Lego Collection</h1>
+        <a href="/lego/sets" class="mt-4 inline-block bg-white text-blue-500 rounded-lg px-4 py-2 font-semibold">View Sets</a>
+    </section>
+
+    <section class="container mx-auto py-10">
+        <h2 class="text-3xl font-bold text-center mb-6">Featured LEGO Sets</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Example LEGO Set Card -->
+            <div class="card border rounded-lg overflow-hidden shadow-lg">
+                <img src="/images/lego1.jpg" alt="Lego Set 1" class="w-full h-40 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-bold">Lego Set Name 1</h3>
+                    <p>A brief description about Lego Set 1.</p>
+                    <a href="/lego/sets/001-1" class="mt-4 inline-block bg-blue-500 text-white rounded-lg px-3 py-1">View Details</a>
+                </div>
+            </div>
+            <div class="card border rounded-lg overflow-hidden shadow-lg">
+                <img src="/images/lego2.jpg" alt="Lego Set 2" class="w-full h-40 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-bold">Lego Set Name 2</h3>
+                    <p>A brief description about Lego Set 2.</p>
+                    <a href="/lego/sets/002-2" class="mt-4 inline-block bg-blue-500 text-white rounded-lg px-3 py-1">View Details</a>
+                </div>
+            </div>
+            <div class="card border rounded-lg overflow-hidden shadow-lg">
+                <img src="/images/lego3.jpg" alt="Lego Set 3" class="w-full h-40 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-bold">Lego Set Name 3</h3>
+                    <p>A brief description about Lego Set 3.</p>
+                    <a href="/lego/sets/003-3" class="mt-4 inline-block bg-blue-500 text-white rounded-lg px-3 py-1">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
