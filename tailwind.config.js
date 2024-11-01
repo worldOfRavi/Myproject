@@ -1,6 +1,6 @@
 module.exports = {
   content: [
-      './views/**/*.html'
+      "./views/**/*.ejs"
   ],
   theme: {
       extend: {},
@@ -10,6 +10,6 @@ module.exports = {
       require('daisyui'),
   ],
   daisyui: {
-      themes: ['fantasy'], // You can choose your theme here
+      themes: ['fantasy'], 
   },
 };
