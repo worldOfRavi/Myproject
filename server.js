@@ -21,6 +21,7 @@ const legoData = require('./modules/legoSets');
 const app = express();
 const PORT = process.env.PORT || 3010;
 
+// let __dirname  = path.resolve();
 
 app.set("views", path.join(__dirname, "/views"));
 app.set("view engine", "ejs");

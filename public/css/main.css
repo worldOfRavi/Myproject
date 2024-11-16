@@ -1782,7 +1782,7 @@ details.collapse summary::-webkit-details-marker {
 }
 
 .min-h-screen {
-  min-height: 100vh;
+  min-height: 10vh;
 }
 
 .w-full {
@@ -1791,6 +1791,10 @@ details.collapse summary::-webkit-details-marker {
 
 .flex-grow {
   flex-grow: 1;
+}
+
+li{
+  list-style: none;
 }
 
 .table-auto {

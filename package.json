@@ -6,7 +6,7 @@
     "tw:build": "npx tailwindcss -i ./public/css/tailwind.css -o ./public/css/main.css"
   },
   "keywords": [],
-  "author": "",
+  "author": "", 
   "license": "ISC",
   "description": "",
   "dependencies": {
